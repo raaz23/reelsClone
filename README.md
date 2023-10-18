@@ -1,16 +1,19 @@
 #
 
-Welcome to my reelClone. Please checkOut my websites and give me feedback as a user experience. I tried my best to make with good.
+Welcome to my reelClone. Please check out my websites and give me feedback on the user experience. I tried my best to make it good.
+
+# hosted on firebase:
+(https://test-8d583.web.app/)
 
 ##  Features:
-- UserFriendly and Interactive UI.
+- User-friendly and Interactive UI.
 - you can like your favorite videos
-- you can comment on each videos
+- you can comment on each video
 - you can check your profile as well as your videos
--
+
 
 ## Screenshot
-Here are the some screenshots of my reels-Clone
+Here are some screenshots of my reels-Clone
 
 ###### Home Page
 ![Home_Page](https://www.dropbox.com/scl/fi/0utnesj1pg4uc5pavk8t9/reelsIMG.png?rlkey=wszt2x84ubo7vmucqpqs6lm9a&dl=0)
