@@ -1,0 +1,255 @@
+
+.VideoCard{
+    position: relative;
+    height: 100%;
+    width: 35%;
+    border: 0.0625rem solid white;
+    display: grid;
+   margin: auto;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  
+
+}
+.video-card-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.fakeUser{
+    display: grid;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    bottom:8rem;
+    left: 2rem;
+    z-index: 2;
+    
+}
+.profileIMG{
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    background-size: contain;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fakeUser h3{
+    
+    font-size: 100%;
+    margin-top: 3rem;
+    font-weight: 600;
+    color: whitesmoke;
+
+}
+.title{
+    position: absolute;
+    bottom:4rem;
+    left: 2rem;
+    color:white;
+    z-index: 2;
+    gap: 1rem;
+    
+}
+.commentBox{
+    color:whitesmoke;
+    position: absolute;
+    right:2rem;
+    top:40%;
+    z-index: 2;
+    font-size:250%;
+    cursor: pointer;
+   
+}
+.likeBtn{
+    cursor: pointer;
+    color:red;
+    position: absolute;
+    right:2rem;
+    top:25%;
+    z-index: 2;
+    font-size:300%;
+   
+}
+.likeBtn p{
+    font-size: x-large;
+    position: absolute;
+    top: 80%;
+    right: 42%;
+    color:solid red;
+
+}
+.commentBoxOpen{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0rem;
+    background-color: whitesmoke;
+    z-index: 2;
+}
+
+.actualComment{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+}
+.post-user-comment{
+    display: flex;
+}
+
+ .post-user-comment img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 0.4rem;
+}
+.NamCom{
+    margin: 0.0625rem;
+}
+.delete-comment-button{
+    margin: 0.625%;
+    height: 1.5rem;
+    position: absolute;
+    right: 0;
+    font-size: 62.5%;
+    margin-top: 0.5rem;
+
+}
+.comment-form{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: whitesmoke;
+    border: 0.125rem solid black ;
+    bottom:0;
+}
+.comment-form input{
+    width: 70%;
+    height: 100%;
+
+}
+.comment-form button{
+    width: 30%;
+    height: 100%;
+    cursor: pointer;
+    background-color: salmon;
+    
+}
+
+
+@media (max-width:480px) {
+    html{
+       margin: auto;
+    }
+    .VideoCard{
+
+        height: 100%;
+        width: 100%;
+    }
+    .fakeUser img{
+        object-fit: contain;
+        position: fixed;
+        top: 2rem;
+        right:12rem;
+        width:3rem;
+        height:3rem;
+    }
+    .fakeUser{
+        margin-bottom: 5rem;  
+        
+    }
+    .fakeUser h3{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 20px;
+        bottom: 8rem;
+    }
+    .commentBoxOpen{
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        bottom: 3rem;
+        background-color: whitesmoke;
+        z-index: 2;
+    }
+    
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    html{
+        margin:auto;
+        font-size:45%;
+
+    }
+    .fakeUser img{
+    position: fixed;
+    display: flex;
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 50%;
+    right:36rem;
+    top: 5.5rem;
+    cursor: pointer;
+}
+    .VideoCard{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        border: 0.0625rem solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+}
+.fakeUser{
+    margin-bottom: 18rem;
+    left: 5rem;
+    font-size: 30px;
+    font-weight: 400;
+}
+.title{
+    margin-bottom: 7rem;
+    left: 5rem;
+    font-size: 30px;
+    font-weight: 400;
+}
+.likeBtn,.commentBox{
+    font-size: 50px;
+    margin-right:3rem;
+}
+.commentBoxOpen{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0rem;
+    background-color: whitesmoke;
+    z-index: 2;
+}
+
+}
+
+@media (min-width:769px){
+    .html{
+        font-size: x-large !important;
+    }
+    .likeBtn,.commentBox{
+        font-size: 30px;
+      margin: 0;
+
+    }
+    .likeBtn{
+        top: 15rem;
+    }
+    .commentBox{
+        top: 22rem;
+    }
+    .fakeUser img{
+        position: absolute;
+
+    }
+}
