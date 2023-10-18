@@ -2,7 +2,7 @@
 
 Welcome to my reelClone. Please check out my websites and give me feedback on the user experience. I tried my best to make it good.
 
-# hosted on firebase:
+# hosted on Firebase:
 (https://test-8d583.web.app/)
 
 ##  Features:
@@ -16,7 +16,7 @@ Welcome to my reelClone. Please check out my websites and give me feedback on th
 Here are some screenshots of my reels-Clone
 
 ###### Home Page
-![Home_Page](https://www.dropbox.com/scl/fi/0utnesj1pg4uc5pavk8t9/reelsIMG.png?rlkey=wszt2x84ubo7vmucqpqs6lm9a&dl=0)
+![Home_Page]("./images/A.png")
 
 ###### Home Page
 ![Home_Page](https://www.dropbox.com/scl/fi/8rdin0fh1rnibqv812kvn/reelsIMG2.png?rlkey=2ngwwuu7chm4ea9duf1gozv6s&dl=0)
