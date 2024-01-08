@@ -53,8 +53,8 @@ npm run start
 
 ### Authors
 - [Raju Yadav] - Connect with social media Link
--[Facebook]([https://reactjs.org/](https://www.facebook.com/loveraju.yadav))
-- [instagram]([https://instagram.com/raazveer30/](https://www.instagram.com/raazveer30/))
+-[Facebook](https://www.facebook.com/loveraju.yadav)
+- [instagram](https://www.instagram.com/raazveer30/)
 - [Linkedin](https://www.linkedin.com/in/raju-yadav-148525283/)
   
 
