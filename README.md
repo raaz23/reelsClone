@@ -3,7 +3,7 @@
 Welcome to my reelClone. Please check out my websites and give me feedback on the user experience. I tried my best to make it good.
 
 # hosted on Firebase:
-(https://test-8d583.web.app/)
+(https://test-8d583.web.app/) temporarily blocked by Firebase due to inscription
 
 ##  Features:
 - User-friendly and Interactive UI.
